@@ -1,0 +1,61 @@
+.blog-posts {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin: 40px auto 0 auto;
+    justify-content: center;
+}
+.post-card {
+    width: 300px;
+    position: relative;
+}
+.post-card__img {
+    width: 100%;
+}
+.post-card__comments {
+    float: right;
+}
+
+.post-card__content {
+    margin-bottom: 40px;
+}
+.post-card__footer {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+.blog-post-navigation {
+    padding: 40px;
+}
+.blog-post-navigation nav {
+    margin: auto;
+    width: fit-content;
+}
+.blog-post-navigation nav > div {
+    gap: 30px;
+}
+
+
+.post {
+    padding: 40px;
+    max-width: 768px;
+    margin: auto;
+}
+
+.post__image {
+    width: 100%;
+}
+.post-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 20px 0 0 0;
+}
+.post-comment-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px 10px 20px;
+}
+.post-comment__content {
+    padding: 0 40px 20px 40px;
+}
